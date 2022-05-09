@@ -52,7 +52,7 @@ input:focus, textarea:focus, select:focus
 }
 #ImageRoad320
 {
-   border: 5px solid #000000;
+   border: 2px solid #000000;
    border-radius: 0px;
    padding: 0;
    margin: 0;
@@ -225,11 +225,11 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#wb_MagentaPin
+#wb_LogoImage
 {
    vertical-align: top;
 }
-#MagentaPin
+#LogoImage
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -240,11 +240,11 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#wb_LogoImage
+#wb_MagentaPin
 {
    vertical-align: top;
 }
-#LogoImage
+#MagentaPin
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -2723,8 +2723,8 @@ body
 {
    left: 24px !important;
    top: 1339px !important;
-   width: 281px !important;
-   height: 1824px !important;
+   width: 287px !important;
+   height: 1830px !important;
    visibility: hidden !important;
    display: none !important;
    margin: 0;
@@ -2872,15 +2872,6 @@ body
    margin: 0;
    padding: 0;
 }
-#MergedObject2
-{
-   left: 134px !important;
-   top: 2097px !important;
-   width: 546px !important;
-   height: 334px !important;
-   visibility: visible !important;
-   display: inline !important;
-}
 #MergedObject3
 {
    left: 134px !important;
@@ -2890,12 +2881,12 @@ body
    visibility: visible !important;
    display: inline !important;
 }
-#MergedObject4
+#MergedObject2
 {
-   left: 107px !important;
-   top: 2964px !important;
+   left: 134px !important;
+   top: 2097px !important;
    width: 546px !important;
-   height: 371px !important;
+   height: 334px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -2910,10 +2901,30 @@ body
    margin: 0;
    padding: 0;
 }
+#MergedObject4
+{
+   left: 107px !important;
+   top: 2964px !important;
+   width: 546px !important;
+   height: 371px !important;
+   visibility: visible !important;
+   display: inline !important;
+}
 #wb_BluePin
 {
    left: 366px !important;
    top: 2939px !important;
+   width: 52px !important;
+   height: 52px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_YellowPin
+{
+   left: 361px !important;
+   top: 2078px !important;
    width: 52px !important;
    height: 52px !important;
    visibility: visible !important;
@@ -2930,12 +2941,12 @@ body
    visibility: visible !important;
    display: inline !important;
 }
-#wb_YellowPin
+#wb_LogoImage
 {
-   left: 361px !important;
-   top: 2078px !important;
-   width: 52px !important;
-   height: 52px !important;
+   left: 7px !important;
+   top: 6px !important;
+   width: 411px !important;
+   height: 63px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -2947,17 +2958,6 @@ body
    top: 3432px !important;
    width: 52px !important;
    height: 52px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-   padding: 0;
-}
-#wb_LogoImage
-{
-   left: 7px !important;
-   top: 6px !important;
-   width: 411px !important;
-   height: 63px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -4558,8 +4558,8 @@ body
 {
    left: 18px !important;
    top: 1630px !important;
-   width: 281px !important;
-   height: 2370px !important;
+   width: 278px !important;
+   height: 2363px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -4567,8 +4567,8 @@ body
 }
 #ImageRoad320
 {
-   border: 5px solid #0F0F0F;
-   border-radius: 5px;
+   border: 2px solid transparent;
+   border-radius: 2px;
 }
 #wb_TextP5
 {
@@ -4712,15 +4712,6 @@ body
    margin: 0;
    padding: 0;
 }
-#MergedObject2
-{
-   left: 368px !important;
-   top: 806px !important;
-   width: 546px !important;
-   height: 334px !important;
-   visibility: hidden !important;
-   display: none !important;
-}
 #MergedObject3
 {
    left: 761px !important;
@@ -4730,12 +4721,12 @@ body
    visibility: hidden !important;
    display: none !important;
 }
-#MergedObject4
+#MergedObject2
 {
-   left: 116px !important;
-   top: 1889px !important;
+   left: 368px !important;
+   top: 806px !important;
    width: 546px !important;
-   height: 371px !important;
+   height: 334px !important;
    visibility: hidden !important;
    display: none !important;
 }
@@ -4750,10 +4741,30 @@ body
    margin: 0;
    padding: 0;
 }
+#MergedObject4
+{
+   left: 116px !important;
+   top: 1889px !important;
+   width: 546px !important;
+   height: 371px !important;
+   visibility: hidden !important;
+   display: none !important;
+}
 #wb_BluePin
 {
    left: 134px !important;
    top: 2689px !important;
+   width: 35px !important;
+   height: 35px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_YellowPin
+{
+   left: 134px !important;
+   top: 2166px !important;
    width: 35px !important;
    height: 35px !important;
    visibility: visible !important;
@@ -4770,12 +4781,12 @@ body
    visibility: hidden !important;
    display: none !important;
 }
-#wb_YellowPin
+#wb_LogoImage
 {
-   left: 134px !important;
-   top: 2166px !important;
-   width: 35px !important;
-   height: 35px !important;
+   left: 8px !important;
+   top: 6px !important;
+   width: 594px !important;
+   height: 65px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -4787,17 +4798,6 @@ body
    top: 3723px !important;
    width: 35px !important;
    height: 35px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-   padding: 0;
-}
-#wb_LogoImage
-{
-   left: 8px !important;
-   top: 6px !important;
-   width: 594px !important;
-   height: 65px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -5268,7 +5268,7 @@ body
    left: 18px !important;
    top: 5826px !important;
    width: 262px !important;
-   height: 602px !important;
+   height: 621px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FB5500;
@@ -5402,8 +5402,8 @@ body
 }
 #MintButton
 {
-   left: 72px !important;
-   top: 6529px !important;
+   left: 95px !important;
+   top: 6528px !important;
    width: 124px !important;
    height: 53px !important;
    visibility: visible !important;
@@ -5565,8 +5565,8 @@ body
 }
 #wb_SlideShow320
 {
-   left: 25px !important;
-   top: 6783px !important;
+   left: 49px !important;
+   top: 6778px !important;
    width: 217px !important;
    height: 246px !important;
    visibility: visible !important;
@@ -5710,8 +5710,8 @@ body
 }
 #wb_TwitterIcon320
 {
-   left: 33px !important;
-   top: 7084px !important;
+   left: 63px !important;
+   top: 7080px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5738,8 +5738,8 @@ body
 }
 #wb_OpenseaIcon320
 {
-   left: 81px !important;
-   top: 7084px !important;
+   left: 111px !important;
+   top: 7080px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5766,8 +5766,8 @@ body
 }
 #wb_ContractIcon320
 {
-   left: 177px !important;
-   top: 7084px !important;
+   left: 207px !important;
+   top: 7080px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5794,8 +5794,8 @@ body
 }
 #wb_DiscordIcon320
 {
-   left: 129px !important;
-   top: 7084px !important;
+   left: 159px !important;
+   top: 7080px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
