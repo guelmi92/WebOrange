@@ -42,15 +42,11 @@ $(document).ready(function()
    $('#MergedObject4').addClass('visibility-hidden');
    $('#MergedObject5').addClass('visibility-hidden');
    $('#wb_LogoImage').addClass('visibility-hidden');
-   $('#wb_RoadmapTitle').addClass('visibility-hidden');
-   $('#wb_AboutTitle').addClass('visibility-hidden');
    $('#wb_FaqText1').addClass('visibility-hidden');
    $('#wb_FaqText2').addClass('visibility-hidden');
    $('#wb_FaqText4').addClass('visibility-hidden');
    $('#wb_FaqText5').addClass('visibility-hidden');
    $('#wb_FaqText6').addClass('visibility-hidden');
-   $('#wb_GalleryTitle').addClass('visibility-hidden');
-   $('#wb_FaqTitle').addClass('visibility-hidden');
    $('#wb_Logo320').addClass('visibility-hidden');
    $('#wb_ImageLogo320').addClass('visibility-hidden');
    function onScrollMergedObject1()
@@ -197,54 +193,6 @@ $(document).ready(function()
    {
       onScrollLogoImage();
    });
-   function onScrollRoadmapTitle()
-   {
-      var $obj = $("#wb_RoadmapTitle");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_RoadmapTitle', 'jello-horizontal', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_RoadmapTitle', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_RoadmapTitle').inViewPort(true))
-   {
-      $('#wb_RoadmapTitle').addClass("in-viewport");
-   }
-   onScrollRoadmapTitle();
-   $(window).scroll(function(event)
-   {
-      onScrollRoadmapTitle();
-   });
-   function onScrollAboutTitle()
-   {
-      var $obj = $("#wb_AboutTitle");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_AboutTitle', 'jello-horizontal', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_AboutTitle', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_AboutTitle').inViewPort(true))
-   {
-      $('#wb_AboutTitle').addClass("in-viewport");
-   }
-   onScrollAboutTitle();
-   $(window).scroll(function(event)
-   {
-      onScrollAboutTitle();
-   });
    $("#FaqAccordion").accordion(
    {
       event: 'click',
@@ -386,54 +334,6 @@ $(document).ready(function()
    {
       onScrollFaqText6();
    });
-   function onScrollGalleryTitle()
-   {
-      var $obj = $("#wb_GalleryTitle");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_GalleryTitle', 'jello-horizontal', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_GalleryTitle', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_GalleryTitle').inViewPort(true))
-   {
-      $('#wb_GalleryTitle').addClass("in-viewport");
-   }
-   onScrollGalleryTitle();
-   $(window).scroll(function(event)
-   {
-      onScrollGalleryTitle();
-   });
-   function onScrollFaqTitle()
-   {
-      var $obj = $("#wb_FaqTitle");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_FaqTitle', 'jello-horizontal', 0, 1250);
-      }
-      else
-      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
-      {
-         $obj.removeClass("in-viewport");
-         AnimateCss('wb_FaqTitle', 'animate-fade-out', 0, 0);
-      }
-   }
-   if (!$('#wb_FaqTitle').inViewPort(true))
-   {
-      $('#wb_FaqTitle').addClass("in-viewport");
-   }
-   onScrollFaqTitle();
-   $(window).scroll(function(event)
-   {
-      onScrollFaqTitle();
-   });
    $("#PhotoCollage").photocollage({ effect: 'shake', duration: 600, padding: 4, matrix: '2,0,1,0,0,1,1,1,1' });
    $("#wb_CssMenu768").affix({offset:{top: $("#wb_CssMenu768").offset().top}});
    function onScrollLogo320()
@@ -552,15 +452,15 @@ $(document).ready(function()
 <div id="wb_ImageRoad320" style="position:absolute;left:24px;top:1339px;width:281px;height:1824px;visibility:hidden;z-index:25;">
 <img src="images/Roadpicture.webp" id="ImageRoad320" alt="" width="281" height="553"></div>
 <div id="wb_TextP5" style="position:absolute;left:130px;top:2555px;width:734px;height:80px;visibility:hidden;z-index:26;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;"><strong>&nbsp; </strong>To infinity and beyond after the minting process 100% completed and organic growth constated in the second market.<br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br></span></div>
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;"><strong>&nbsp; </strong>To infinity and beyond after the minting process 100% completed and organic growth constated in the second market.<br><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br></span></div>
 <div id="wb_TextP4" style="position:absolute;left:130px;top:2261px;width:734px;height:165px;visibility:hidden;z-index:27;">
 <span style="color:#000000;font-family:Coiny;font-size:19px;"><strong><br>&nbsp; </strong>Will be announced upon completion of the minting process including a charitable donation voted by the community and will assess the possibility of future collaboration with other similar projects to take the project to another level. <br><br>&nbsp; The implementation of a staking contract will also be considered to reward NFT holders.<br><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br></span></div>
 <div id="wb_TextP3" style="position:absolute;left:130px;top:1992px;width:734px;height:140px;visibility:hidden;z-index:28;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;"><strong>&nbsp; </strong>Based on DAOs (Decentralized Autonomous Organizations), the community will have the decision-making power and consensus will determine the path to follow. <br><br>&nbsp; All activity concerning the project will be transparent and fully public.<br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br></span></div>
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;"><strong>&nbsp; </strong>Based on DAOs (Decentralized Autonomous Organizations), the community will have the decision-making power and consensus will determine the path to follow. <br><br>&nbsp; All activity concerning the project will be transparent and fully public.<br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br></span></div>
 <div id="wb_TextP1" style="position:absolute;left:130px;top:1420px;width:734px;height:144px;visibility:hidden;z-index:29;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> </strong></span><span style="color:#000000;font-family:Coiny;font-size:16px;"><strong><br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;"><strong>&nbsp; </strong>DogeInu Punks is live and public sale is launch.<br><br>&nbsp; First 1000 are Free. After the price is fixed to 0.05ETH for the remaining 9000.<br><br>&nbsp; (This represents some ETHs in giveaway with 0.05ETH as the starting price)<br><br><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br></span></div>
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> </strong></span><span style="color:#000000;font-family:Coiny;font-size:16px;"><strong><br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;"><strong>&nbsp; </strong>DogeInu Punks is live and public sale is launch.<br><br>&nbsp; First 1000 are Free. After the price is fixed to 0.05ETH for the remaining 9000.<br><br>&nbsp; (This represents some ETHs in giveaway with 0.05ETH as the starting price)<br><br><br><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br></span></div>
 <div id="wb_TextP2" style="position:absolute;left:130px;top:1696px;width:734px;height:167px;visibility:hidden;z-index:30;">
-<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:20px;"><strong> <br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;">&nbsp; Developping community trought Discord channel and other media. <br><br>&nbsp; Numerous giveaways for the community after 25% minting and the possibility to win Ethereums after the collection sold out.<br><br>&nbsp; According to the new traits added, the rarity classification will also be revealed.<br><br><br><br></span><span style="color:#B7C2C8;font-family:Pixellari;font-size:16px;"><br><br></span></div>
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:20px;"><strong> <br></strong></span><span style="color:#000000;font-family:Coiny;font-size:19px;">&nbsp; Developping community trought Discord channel and other media. <br><br>&nbsp; Numerous giveaways for the community after 25% minting and the possibility to win Ethereums after the collection sold out.<br><br>&nbsp; According to the new traits added, the rarity classification will also be revealed.<br><br><br><br><br></span><span style="color:#B7C2C8;font-family:Pixellari;font-size:16px;"><br><br></span></div>
 <div id="wb_RoadmapShape768" style="position:absolute;left:38px;top:1376px;width:703px;height:2123px;visibility:hidden;z-index:31;">
 <img src="images/img0024.png" id="RoadmapShape768" alt="" width="703" height="2123" style="width:703px;height:2123px;"></div>
 <div id="wb_RoadmapPhaseShape" style="position:absolute;left:46px;top:1320px;width:1331px;height:1618px;z-index:32;">
@@ -568,13 +468,13 @@ $(document).ready(function()
 <div id="wb_ImageRoad" style="position:absolute;left:346px;top:1328px;width:619px;height:1602px;z-index:33;">
 <img src="images/Roadpicture.webp" id="ImageRoad" alt="" width="619" height="1219"></div>
 <img src="images/img0042.png" id="MergedObject1" alt="" title="" style="border-width:0;position:absolute;left:75px;top:1452px;width:546px;height:287px;z-index:34" width="546" height="287">
-<img src="images/img0043.png" id="MergedObject2" alt="" title="" style="border-width:0;position:absolute;left:797px;top:1680px;width:546px;height:334px;z-index:35" width="546" height="334">
-<img src="images/img0044.png" id="MergedObject3" alt="" title="" style="border-width:0;position:absolute;left:115px;top:1989px;width:546px;height:270px;z-index:36" width="546" height="270">
-<div id="wb_RedPin" style="position:absolute;left:330px;top:1426px;width:52px;height:52px;z-index:37;">
+<div id="wb_RedPin" style="position:absolute;left:330px;top:1426px;width:52px;height:52px;z-index:35;">
 <img src="images/rojo.webp" id="RedPin" alt="" width="52" height="52"></div>
-<div id="wb_GreePin" style="position:absolute;left:1038px;top:1663px;width:52px;height:52px;z-index:38;">
+<img src="images/img0043.png" id="MergedObject2" alt="" title="" style="border-width:0;position:absolute;left:797px;top:1680px;width:546px;height:334px;z-index:36" width="546" height="334">
+<img src="images/img0044.png" id="MergedObject3" alt="" title="" style="border-width:0;position:absolute;left:115px;top:1989px;width:546px;height:270px;z-index:37" width="546" height="270">
+<img src="images/img0045.png" id="MergedObject4" alt="" title="" style="border-width:0;position:absolute;left:794px;top:2286px;width:546px;height:371px;z-index:38" width="546" height="371">
+<div id="wb_GreePin" style="position:absolute;left:1038px;top:1663px;width:52px;height:52px;z-index:39;">
 <img src="images/verde.webp" id="GreePin" alt="" width="52" height="52"></div>
-<img src="images/img0045.png" id="MergedObject4" alt="" title="" style="border-width:0;position:absolute;left:794px;top:2286px;width:546px;height:371px;z-index:39" width="546" height="371">
 <div id="wb_BluePin" style="position:absolute;left:342px;top:1967px;width:52px;height:52px;z-index:40;">
 <img src="images/Azul.webp" id="BluePin" alt="" width="52" height="52"></div>
 <img src="images/img0046.png" id="MergedObject5" alt="" title="" style="border-width:0;position:absolute;left:83px;top:2666px;width:546px;height:241px;z-index:41" width="546" height="241">
@@ -696,9 +596,9 @@ $(document).ready(function()
 <div id="wb_FaqText4" style="position:absolute;left:17px;top:2824px;width:276px;height:103px;visibility:hidden;z-index:76;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#FF9900;font-family:Coiny;font-size:21px;">Blockchain</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#000000;font-family:Coiny;font-size:16px;">&nbsp; </span><span style="color:#000000;font-family:Coiny;font-size:19px;">Ethereum.</span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
 <div id="wb_FaqText5" style="position:absolute;left:31px;top:2546px;width:274px;height:893px;visibility:hidden;z-index:77;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br></span><span style="color:#262626;font-family:Coiny;font-size:19px;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </span><span style="color:#FF9900;font-family:Coiny;font-size:21px;">How to mint ?</span><span style="color:#FF9900;font-family:Pixellari;font-size:21px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#000000;font-family:Coiny;font-size:16px;">&nbsp; </span><span style="color:#000000;font-family:Coiny;font-size:19px;">First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>&nbsp; By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>&nbsp; If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>&nbsp; After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and put it up for sale if you wish in the second market.<br><br><br><br><br><br><br></span><span style="color:#000000;font-family:Coiny;font-size:16px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br><br><br></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span></div>
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br></span><span style="color:#262626;font-family:Coiny;font-size:19px;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </span><span style="color:#FF9900;font-family:Coiny;font-size:21px;">How to mint ?</span><span style="color:#FF9900;font-family:Pixellari;font-size:21px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#000000;font-family:Coiny;font-size:16px;">&nbsp; </span><span style="color:#000000;font-family:Coiny;font-size:19px;">First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>&nbsp; By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>&nbsp; If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>&nbsp; After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and put it up for sale if you wish in the second market.<br><br><br><br><br><br><br><br><br><br></span><span style="color:#000000;font-family:Coiny;font-size:16px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><br><br><br><br></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span></div>
 <div id="wb_FaqText6" style="position:absolute;left:26px;top:2964px;width:274px;height:406px;visibility:hidden;z-index:78;">
-<span style="color:#000000;font-family:Pixellari;font-size:19px;"><br></span><span style="color:#000000;font-family:Coiny;font-size:19px;">&nbsp; <strong>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </strong></span><span style="color:#FF9900;font-family:Coiny;font-size:21px;">What's different with others crypto punks projects ?<strong><br></strong></span><span style="color:#000000;font-family:Coiny;font-size:13px;"><br></span><span style="color:#000000;font-family:Coiny;font-size:19px;">DogeInu Punks has been redesigning&nbsp; from scratch and new traits have been added that don't exist in the original. <br><br>&nbsp; Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>&nbsp; Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.<br><br></span><span style="color:#000000;font-family:Pixellari;font-size:19px;"><br><br><br><br></span></div>
+<span style="color:#000000;font-family:Pixellari;font-size:19px;"><br></span><span style="color:#000000;font-family:Coiny;font-size:19px;">&nbsp; <strong>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </strong></span><span style="color:#FF9900;font-family:Coiny;font-size:21px;">What's different with others crypto punks projects ?<strong><br></strong></span><span style="color:#000000;font-family:Coiny;font-size:13px;"><br></span><span style="color:#000000;font-family:Coiny;font-size:19px;">DogeInu Punks has been redesigning&nbsp; from scratch and new traits have been added that don't exist in the original. <br><br>&nbsp; Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>&nbsp; Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.<br><br><br><br><br></span><span style="color:#000000;font-family:Pixellari;font-size:19px;"><br><br><br><br></span></div>
 <div id="wb_PhotoGallery1" style="position:absolute;left:46px;top:4236px;width:1331px;height:288px;z-index:79;">
 <div id="PhotoGallery1">
    <div class="thumbnails">

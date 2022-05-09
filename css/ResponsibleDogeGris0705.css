@@ -15,7 +15,16 @@
         url('../fonts/MaterialIcons-Regular.woff') format('woff'),
         url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
 }
-
+@font-face
+{
+   font-family: "Pixellari";
+   font-display: swap;
+   src: url('../fonts/Pixellari.woff2') format('woff2'),
+        url('../fonts/Pixellari.woff') format('woff'),
+        url('../fonts/Pixellari.ttf') format('truetype'),
+        url('../fonts/Pixellari.svg#Pixellari') format('svg'),
+        url('../fonts/Pixellari.eot') format('embedded-opentype');
+}
 @-webkit-keyframes animate-fade-out
 {
    0% { opacity: 1;  }

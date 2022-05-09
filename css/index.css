@@ -2861,6 +2861,17 @@ body
    visibility: visible !important;
    display: inline !important;
 }
+#wb_RedPin
+{
+   left: 396px !important;
+   top: 1683px !important;
+   width: 52px !important;
+   height: 52px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
 #MergedObject2
 {
    left: 134px !important;
@@ -2879,16 +2890,14 @@ body
    visibility: visible !important;
    display: inline !important;
 }
-#wb_RedPin
+#MergedObject4
 {
-   left: 396px !important;
-   top: 1683px !important;
-   width: 52px !important;
-   height: 52px !important;
+   left: 107px !important;
+   top: 2964px !important;
+   width: 546px !important;
+   height: 371px !important;
    visibility: visible !important;
    display: inline !important;
-   margin: 0;
-   padding: 0;
 }
 #wb_GreePin
 {
@@ -2900,15 +2909,6 @@ body
    display: inline !important;
    margin: 0;
    padding: 0;
-}
-#MergedObject4
-{
-   left: 107px !important;
-   top: 2964px !important;
-   width: 546px !important;
-   height: 371px !important;
-   visibility: visible !important;
-   display: inline !important;
 }
 #wb_BluePin
 {
@@ -4575,7 +4575,7 @@ body
    left: 35px !important;
    top: 3580px !important;
    width: 238px !important;
-   height: 179px !important;
+   height: 197px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FF9900;
@@ -4613,7 +4613,7 @@ body
    left: 35px !important;
    top: 2660px !important;
    width: 238px !important;
-   height: 337px !important;
+   height: 356px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FF9900;
@@ -4632,7 +4632,7 @@ body
    left: 35px !important;
    top: 1713px !important;
    width: 238px !important;
-   height: 344px !important;
+   height: 363px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FF9900;
@@ -4651,7 +4651,7 @@ body
    left: 35px !important;
    top: 2155px !important;
    width: 238px !important;
-   height: 407px !important;
+   height: 426px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FF9900;
@@ -4701,6 +4701,17 @@ body
    visibility: hidden !important;
    display: none !important;
 }
+#wb_RedPin
+{
+   left: 140px !important;
+   top: 1698px !important;
+   width: 35px !important;
+   height: 35px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
 #MergedObject2
 {
    left: 368px !important;
@@ -4719,16 +4730,14 @@ body
    visibility: hidden !important;
    display: none !important;
 }
-#wb_RedPin
+#MergedObject4
 {
-   left: 140px !important;
-   top: 1698px !important;
-   width: 35px !important;
-   height: 35px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-   padding: 0;
+   left: 116px !important;
+   top: 1889px !important;
+   width: 546px !important;
+   height: 371px !important;
+   visibility: hidden !important;
+   display: none !important;
 }
 #wb_GreePin
 {
@@ -4740,15 +4749,6 @@ body
    display: inline !important;
    margin: 0;
    padding: 0;
-}
-#MergedObject4
-{
-   left: 116px !important;
-   top: 1889px !important;
-   width: 546px !important;
-   height: 371px !important;
-   visibility: hidden !important;
-   display: none !important;
 }
 #wb_BluePin
 {
@@ -5028,7 +5028,7 @@ body
 }
 #wb_AboutTitle
 {
-   left: 60px !important;
+   left: 80px !important;
    top: 404px !important;
    width: 159px !important;
    height: 35px !important;
@@ -5248,7 +5248,7 @@ body
    left: 18px !important;
    top: 4635px !important;
    width: 262px !important;
-   height: 893px !important;
+   height: 949px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FB5500;
@@ -5266,9 +5266,9 @@ body
 #wb_FaqText6
 {
    left: 18px !important;
-   top: 5566px !important;
+   top: 5621px !important;
    width: 262px !important;
-   height: 546px !important;
+   height: 602px !important;
    visibility: visible !important;
    display: inline !important;
    background-color: #FB5500;
@@ -5301,7 +5301,7 @@ body
 #Footer
 {
    left: 0px !important;
-   top: 6749px !important;
+   top: 6946px !important;
    height: 74px !important;
    visibility: visible !important;
    display: block !important;
@@ -5382,8 +5382,8 @@ body
 }
 #wb_GalleryShape
 {
-   left: 18px !important;
-   top: 6269px !important;
+   left: 3px !important;
+   top: 6449px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -5391,7 +5391,7 @@ body
 #wb_GalleryTitle
 {
    left: 60px !important;
-   top: 6273px !important;
+   top: 6454px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -5402,8 +5402,8 @@ body
 }
 #MintButton
 {
-   left: 83px !important;
-   top: 6166px !important;
+   left: 77px !important;
+   top: 6324px !important;
    width: 124px !important;
    height: 53px !important;
    visibility: visible !important;
@@ -5425,8 +5425,8 @@ body
 }
 #wb_FaqTitle
 {
-   left: 60px !important;
-   top: 3853px !important;
+   left: 109px !important;
+   top: 3856px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -5565,8 +5565,8 @@ body
 }
 #wb_SlideShow320
 {
-   left: 51px !important;
-   top: 6368px !important;
+   left: 30px !important;
+   top: 6578px !important;
    width: 217px !important;
    height: 246px !important;
    visibility: visible !important;
@@ -5588,8 +5588,8 @@ body
 }
 #wb_FooterText
 {
-   left: 16px !important;
-   top: 21px !important;
+   left: 15px !important;
+   top: 19px !important;
    width: 285px !important;
    height: 37px !important;
    visibility: visible !important;
@@ -5710,8 +5710,8 @@ body
 }
 #wb_TwitterIcon320
 {
-   left: 59px !important;
-   top: 6669px !important;
+   left: 38px !important;
+   top: 6879px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5738,8 +5738,8 @@ body
 }
 #wb_OpenseaIcon320
 {
-   left: 107px !important;
-   top: 6669px !important;
+   left: 86px !important;
+   top: 6879px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5766,8 +5766,8 @@ body
 }
 #wb_ContractIcon320
 {
-   left: 203px !important;
-   top: 6669px !important;
+   left: 182px !important;
+   top: 6879px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5794,8 +5794,8 @@ body
 }
 #wb_DiscordIcon320
 {
-   left: 155px !important;
-   top: 6669px !important;
+   left: 134px !important;
+   top: 6879px !important;
    width: 48px !important;
    height: 30px !important;
    visibility: visible !important;
@@ -5823,9 +5823,9 @@ body
 #wb_RoadmapIcon320
 {
    left: 25px !important;
-   top: 1571px !important;
-   width: 35px !important;
-   height: 35px !important;
+   top: 1576px !important;
+   width: 25px !important;
+   height: 25px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -5835,14 +5835,14 @@ body
 }
 #RoadmapIcon320
 {
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
 }
 #RoadmapIcon320 i
 {
-   line-height: 35px;
-   font-size: 35px;
-   width: 34px;
+   line-height: 25px;
+   font-size: 25px;
+   width: 24px;
    color: #000000;
 }
 #RoadmapIcon320:hover i
@@ -5858,9 +5858,9 @@ body
 #wb_FaqIcon320
 {
    left: 25px !important;
-   top: 3853px !important;
-   width: 35px !important;
-   height: 35px !important;
+   top: 3860px !important;
+   width: 25px !important;
+   height: 25px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -5869,14 +5869,14 @@ body
 }
 #FaqIcon320
 {
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
 }
 #FaqIcon320 i
 {
-   line-height: 35px;
-   font-size: 35px;
-   width: 34px;
+   line-height: 25px;
+   font-size: 25px;
+   width: 24px;
    color: #000000;
 }
 #FaqIcon320:hover i
@@ -5886,9 +5886,9 @@ body
 #wb_GalleryIcon320
 {
    left: 25px !important;
-   top: 6273px !important;
-   width: 35px !important;
-   height: 35px !important;
+   top: 6459px !important;
+   width: 25px !important;
+   height: 25px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -5897,14 +5897,14 @@ body
 }
 #GalleryIcon320
 {
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
 }
 #GalleryIcon320 i
 {
-   line-height: 35px;
-   font-size: 35px;
-   width: 34px;
+   line-height: 25px;
+   font-size: 25px;
+   width: 24px;
    color: #000000;
 }
 #GalleryIcon320:hover i
@@ -5990,9 +5990,9 @@ body
 #wb_HomeIcon320
 {
    left: 25px !important;
-   top: 404px !important;
-   width: 35px !important;
-   height: 35px !important;
+   top: 409px !important;
+   width: 25px !important;
+   height: 25px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -6001,14 +6001,14 @@ body
 }
 #HomeIcon320
 {
-   width: 35px;
-   height: 35px;
+   width: 25px;
+   height: 25px;
 }
 #HomeIcon320 i
 {
-   line-height: 35px;
-   font-size: 35px;
-   width: 34px;
+   line-height: 25px;
+   font-size: 25px;
+   width: 24px;
    color: #000000;
 }
 #HomeIcon320:hover i
@@ -6174,7 +6174,7 @@ body
 }
 #wb_IconFaq2
 {
-   left: 32px !important;
+   left: 33px !important;
    top: 4086px !important;
    width: 28px !important;
    height: 28px !important;
@@ -6196,7 +6196,7 @@ body
 }
 #wb_IconFaq3
 {
-   left: 35px !important;
+   left: 33px !important;
    top: 4290px !important;
    width: 28px !important;
    height: 28px !important;
@@ -6218,7 +6218,7 @@ body
 }
 #wb_IconFaq4
 {
-   left: 34px !important;
+   left: 33px !important;
    top: 4515px !important;
    width: 28px !important;
    height: 28px !important;
@@ -6246,7 +6246,7 @@ body
 }
 #wb_IconFaq5
 {
-   left: 32px !important;
+   left: 33px !important;
    top: 4655px !important;
    width: 28px !important;
    height: 28px !important;
@@ -6274,8 +6274,8 @@ body
 }
 #wb_IconFaq6
 {
-   left: 31px !important;
-   top: 5586px !important;
+   left: 33px !important;
+   top: 5637px !important;
    width: 28px !important;
    height: 28px !important;
    visibility: visible !important;
