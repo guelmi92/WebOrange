@@ -7,11 +7,6 @@ div#container
 }
 body
 {
-   background-color: #0F0F0F;
-   background-image: url('../images/background.webp');
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -19,6 +14,21 @@ body
    line-height: 1.1875;
    margin: 0;
    text-align: center;
+}
+body:after
+{
+   background-color: #0F0F0F;
+   background-image: url('../images/background.webp');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   content: "";
+   height: 100vh;
+   left: 0;
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: -1;
 }
 a
 {
